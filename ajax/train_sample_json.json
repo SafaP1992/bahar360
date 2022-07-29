@@ -1,0 +1,170 @@
+{
+  "Train": [
+    {
+      "TerminalTrainID": 115664825,
+      "TrainCode": 3052520,
+      "Description": "",
+      "CabinType": "SAFIR",
+      "AdtPrice": 195500.0,
+      "ChdPrice": 103400.0,
+      "InfPrice": 26100.0,
+      "Capacity": "9",
+      "Reservable": true,
+      "Address": {
+        "SourceCity": "تهران",
+        "SourceCityEn": "THR",
+        "DestinationCity": "مشهد",
+        "DestinationCityEn": "MSH"
+      },
+      "Info": {
+        "TrainName": "سفیر",
+        "ImageURL": "https://payaneh.ir/etrain/Images/SafirLogo.png"
+      },
+      "Departure": {
+        "DepartureDate": "2019-12-18T21:45:00",
+        "DepartureDatePersian": "۱۳۹۸/۹/۲۷",
+        "DepartureTime": "09:30 AM",
+        "DepartureDateTimeFa": "سه شنبه 18 مهر، 10:30 صبح"
+      },
+      "Arrival": {
+        "ArrivalDatePersian": "۱۳۹۸/۹/۲۷",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "07:30 AM",
+        "ArrivalDateTimeFa": "پنجشنبه 20 مهر، 7:30 صبح"
+      }
+    },
+    {
+      "TerminalTrainID": 112342525,
+      "TrainCode": 2344520,
+      "Description": "",
+      "CabinType": "RAJA",
+      "AdtPrice": 138800.0,
+      "ChdPrice": 93400.0,
+      "InfPrice": 16100.0,
+      "Capacity": "9",
+      "Reservable": true,
+      "Address": {
+        "SourceCity": "تهران",
+        "SourceCityEn": "THR",
+        "DestinationCity": "مشهد",
+        "DestinationCityEn": "MSH"
+      },
+      "Info": {
+        "TrainName": "شرکت حمل و نقل ریلی رجاء",
+        "ImageURL": "https://payaneh.ir/etrain/Images/rajalogo.JPG"
+      },
+      "Departure": {
+        "DepartureDate": "2019-12-18T21:45:00",
+        "DepartureDatePersian": "۱۳۹۸/۹/۲۷",
+        "DepartureTime": "09:30 AM",
+        "DepartureDateTimeFa": "سه شنبه 18 مهر، 10:30 صبح"
+      },
+      "Arrival": {
+        "ArrivalDatePersian": "۱۳۹۸/۹/۲۷",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "07:30 AM",
+        "ArrivalDateTimeFa": "پنجشنبه 20 مهر، 7:30 صبح"
+      }
+    },
+    {
+      "TerminalTrainID": 115345825,
+      "TrainCode": 3345520,
+      "Description": "",
+      "CabinType": "FADAK",
+      "AdtPrice": 205800.0,
+      "ChdPrice": 113400.0,
+      "InfPrice": 28100.0,
+      "Capacity": "9",
+      "Reservable": true,
+      "Address": {
+        "SourceCity": "تهران",
+        "SourceCityEn": "THR",
+        "DestinationCity": "مشهد",
+        "DestinationCityEn": "MSH"
+      },
+      "Info": {
+        "TrainName": "فدک",
+        "ImageURL": "https://payaneh.ir/etrain/Images/fadaklogo.jpg"
+      },
+      "Departure": {
+        "DepartureDate": "2019-12-18T21:45:00",
+        "DepartureDatePersian": "۱۳۹۸/۹/۲۷",
+        "DepartureTime": "09:30 AM",
+        "DepartureDateTimeFa": "سه شنبه 18 مهر، 10:30 صبح"
+      },
+      "Arrival": {
+        "ArrivalDatePersian": "۱۳۹۸/۹/۲۷",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "07:30 AM",
+        "ArrivalDateTimeFa": "پنجشنبه 20 مهر، 7:30 صبح"
+      }
+    },
+    {
+      "TerminalTrainID": 117658825,
+      "TrainCode": 30677892,
+      "Description": "",
+      "CabinType": "SAFIR",
+      "AdtPrice": 195500.0,
+      "ChdPrice": 103400.0,
+      "InfPrice": 26100.0,
+      "Capacity": "9",
+      "Reservable": true,
+      "Address": {
+        "SourceCity": "تهران",
+        "SourceCityEn": "THR",
+        "DestinationCity": "مشهد",
+        "DestinationCityEn": "MSH"
+      },
+      "Info": {
+        "TrainName": "سفیر",
+        "ImageURL": "https://payaneh.ir/etrain/Images/SafirLogo.png"
+      },
+      "Departure": {
+        "DepartureDate": "2019-12-18T21:45:00",
+        "DepartureDatePersian": "۱۳۹۸/۹/۲۷",
+        "DepartureTime": "09:30 AM",
+        "DepartureDateTimeFa": "سه شنبه 18 مهر، 10:30 صبح"
+      },
+      "Arrival": {
+        "ArrivalDatePersian": "۱۳۹۸/۹/۲۷",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "07:30 AM",
+        "ArrivalDateTimeFa": "پنجشنبه 20 مهر، 7:30 صبح"
+      }
+    },
+        {
+      "TerminalTrainID": 115064825,
+      "TrainCode": 2452520,
+      "Description": "",
+      "CabinType": "SAFIR",
+      "AdtPrice": 195500.0,
+      "ChdPrice": 103400.0,
+      "InfPrice": 26100.0,
+      "Capacity": "9",
+      "Reservable": true,
+      "Address": {
+        "SourceCity": "تهران",
+        "SourceCityEn": "THR",
+        "DestinationCity": "مشهد",
+        "DestinationCityEn": "MSH"
+      },
+      "Info": {
+        "TrainName": "سفیر",
+        "ImageURL": "https://payaneh.ir/etrain/Images/SafirLogo.png"
+      },
+      "Departure": {
+        "DepartureDate": "2019-12-18T21:45:00",
+        "DepartureDatePersian": "۱۳۹۸/۹/۲۷",
+        "DepartureTime": "09:30 AM",
+        "DepartureDateTimeFa": "سه شنبه 18 مهر، 10:30 صبح"
+      },
+      "Arrival": {
+        "ArrivalDatePersian": "۱۳۹۸/۹/۲۷",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "07:30 AM",
+        "ArrivalDateTimeFa": "پنجشنبه 20 مهر، 7:30 صبح"
+      }
+    }
+   
+  ]
+}

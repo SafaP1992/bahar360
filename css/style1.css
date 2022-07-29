@@ -1,0 +1,839 @@
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("../website/fonts/iransans/eot/IRANSansWeb_Bold.eot");
+  src: url("../website/fonts/iransans/eot/IRANSansWeb_Bold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../website/fonts/iransans/woff2/IRANSansWeb_Bold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../website/fonts/iransans/woff/IRANSansWeb_Bold.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../website/fonts/iransans/ttf/IRANSansWeb_Bold.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 500;
+  src: url("../website/fonts/iransans/eot/IRANSansWeb_Medium.eot");
+  src: url("../website/fonts/iransans/eot/IRANSansWeb_Medium.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../website/fonts/iransans/woff2/IRANSansWeb_Medium.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../website/fonts/iransans/woff/IRANSansWeb_Medium.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../website/fonts/iransans/ttf/IRANSansWeb_Medium.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../website/fonts/iransans/eot/IRANSansWeb_Light.eot");
+  src: url("../website/fonts/iransans/eot/IRANSansWeb_Light.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../website/fonts/iransans/woff2/IRANSansWeb_Light.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../website/fonts/iransans/woff/IRANSansWeb_Light.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../website/fonts/iransans/ttf/IRANSansWeb_Light.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: 200;
+  src: url("../website/fonts/iransans/eot/IRANSansWeb_UltraLight.eot");
+  src: url("../website/fonts/iransans/eot/IRANSansWeb_UltraLight.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */
+      url("../website/fonts/iransans/woff2/IRANSansWeb_UltraLight.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../website/fonts/iransans/woff/IRANSansWeb_UltraLight.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../website/fonts/iransans/ttf/IRANSansWeb_UltraLight.ttf")
+      format("truetype");
+}
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../website/fonts/iransans/eot/IRANSansWeb.eot");
+  src: url("../website/fonts/iransans/eot/IRANSansWeb.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../website/fonts/iransans/woff2/IRANSansWeb.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../website/fonts/iransans/woff/IRANSansWeb.woff") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../website/fonts/iransans/ttf/IRANSansWeb.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: IRANSans;
+}
+
+.bg-gary {
+  background-color: #f1f1f1;
+}
+
+.card-body {
+  padding: 1px 20px;
+}
+
+.card-body a {
+  color: black;
+}
+
+.star-rating {
+  text-align: right;
+}
+
+.star-rating span {
+  font-size: 10px;
+}
+
+.bg-dark {
+  border-radius: 3px;
+}
+
+.bg-light {
+  border-radius: 5px;
+}
+
+.text-secondary {
+  font-size: 10px;
+}
+
+.price {
+  text-align: center;
+}
+
+.price h1 {
+  font-size: 20px;
+  float: center;
+}
+
+.price h2 {
+  font-size: 20px;
+  font-weight: bold;
+  float: center;
+}
+
+.hotel-title {
+  font-size: 26px;
+}
+
+.star-rating {
+  color: gold;
+  font-size: 12px;
+}
+
+.star-non-rating {
+  font-size: 12px;
+}
+
+.card1 {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+.card2 {
+  background-color: #222;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.card3 {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.card4 {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+}
+
+/* information page */
+.title-info1 i {
+  font-size: 30px;
+}
+
+.title-info1 span {
+  font-size: 30px;
+}
+
+.img-thu-rezerv {
+  width: 250px;
+  padding: 0;
+  margin-left: -80px;
+  margin-right: -80px;
+}
+
+/* Hide the images by default - Slider */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.card-img {
+  object-position: center;
+  object-fit: cover;
+  height: 100%;
+}
+
+.phonecall {
+  font-size: 70px;
+  margin-right: -25px;
+  margin-top: 40px;
+}
+
+.rounded-circle {
+  height: 50px;
+}
+
+.card_tour_page_flight {
+  width: 100%;
+  height: auto;
+  background: transparent;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.35);
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+}
+
+.card_left_flight {
+  z-index: 0;
+  margin-bottom: 22px;
+}
+
+.card_left_flight::after {
+  border-color: transparent #f1f1f1 transparent transparent;
+  border-style: solid;
+  position: absolute;
+  content: "";
+  border-width: 75px 30px 75px 0;
+  right: 99.8%;
+  top: 0;
+  z-index: 2;
+  min-height: 150px;
+}
+
+@media (max-width: 575.98px) {
+  .card_left_flight::after {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .card_left_flight::after {
+    display: none;
+  }
+}
+
+.card_right_flight {
+  width: 52%;
+  float: right;
+  background: #ffffff;
+  min-height: 150px;
+  border-radius: 3px 0 0 3px;
+  border-radius: 10px 0 0 10px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.card_right_flight h2 {
+  margin-bottom: 0.75em;
+}
+
+.card_right_flight p {
+  margin-bottom: 0.3em;
+}
+
+.tour_table_caption {
+  text-align: center !important;
+  font-size: 18px !important;
+  color: #ffffff !important;
+  margin-top: 20px !important;
+  margin-bottom: 45px;
+  width: 30%;
+  width: 200px;
+  height: 40px;
+  position: relative;
+  background: #e67e22;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px;
+}
+
+.tour_table_caption::before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 20px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+
+.tour_table_caption::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 20px solid white;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+}
+.image_tour_table_caption {
+  max-width: 100%;
+  height: auto;
+}
+
+.destination-map {
+  margin-top: 10px;
+}
+
+.airline-time {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: -25px;
+  font-weight: 300;
+  font-size: 1.5em;
+  color: #aaa;
+  opacity: 1;
+  transition: all 0.2s ease-in-out;
+  right: 0;
+}
+
+.destination-map__airicon::before {
+  content: " ";
+  position: absolute;
+  bottom: 15px;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  border-top: 1px dashed #d2d2d2;
+}
+
+.icon {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 1px;
+  position: absolute;
+  right: 0;
+}
+
+.destination-map__airicon::after {
+  content: " ";
+  position: absolute;
+  bottom: 10px;
+  left: -10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid orange;
+}
+
+.destination-aircraft {
+  height: 20px;
+  font-size: 0.8em;
+  color: #646464;
+  text-align: right;
+}
+
+.destination-map__from,
+.destination-map__to {
+  font-size: 1em;
+  font-weight: 500;
+  color: #000;
+}
+
+.from,
+.to {
+  margin-left: 5px;
+}
+
+.destination-map__from strong,
+.destination-map__to strong {
+  font-weight: 500;
+}
+
+.available-columns__destination .destination-map__from .time,
+.available-columns__destination .destination-map__to .time {
+  color: #000;
+  font-size: 1.3em;
+}
+
+#flip {
+  cursor: pointer;
+}
+
+#panel,
+#flip,
+#sflip {
+  padding: 5px;
+  text-align: center;
+  background-color: #f5f5f5;
+  border-radius: 3px;
+  width: 100%;
+  border: none;
+}
+
+#spanel {
+  display: block;
+}
+
+#panel {
+  display: none;
+}
+
+.plane-name-check {
+  font-size: 12px;
+  margin-right: -8px;
+}
+
+.plane-price-check {
+  font-size: 12px;
+}
+
+.price-range {
+  width: 100%;
+  height: 10px;
+  -webkit-appearance: none;
+  border-radius: 5px;
+  background-color: #00cc66;
+  box-shadow: inset 0 3px 18px rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+.price-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #aaa;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
+
+.price-range::-webkit-slider-thumb:hover {
+  box-shadow: 0 0 0 3px #00cc66, 0 0 0 6px #aaa;
+}
+
+.price-range:active::-webkit-slider-thumb {
+  box-shadow: 0 0 0 3px #00cc66, 0 0 0 6px #aaa;
+}
+
+.price-range::-moz-range-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background-color: #aaa;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
+
+.price-range::-moz-range-thumb:hover {
+  box-shadow: 0 0 0 3px #00cc66, 0 0 0 6px #aaa;
+}
+
+.price-range:active::-moz-range-thumb {
+  box-shadow: 0 0 0 3px #00cc66, 0 0 0 6px #aaa;
+}
+
+.nav-tabs .nav-link.active {
+  font-size: 10px;
+}
+
+a {
+  color: #222;
+  font-size: 10px;
+}
+
+.nav-link {
+  padding: 0.3rem 0.5rem;
+}
+
+.tab-information {
+  font-size: 10px;
+}
+
+.price-card {
+  font-size: 16px;
+  color: #03d303;
+  font-weight: bold;
+}
+
+.sortfilter {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.line {
+  border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.first-price {
+  text-align: right;
+  font-size: 12px;
+}
+
+.last-price {
+  text-align: left;
+  font-size: 12px;
+}
+
+.nav-pills .nav-link.active {
+  color: #8bc34a;
+  background-color: transparent;
+  border-bottom: 3px solid #8bc34a;
+  border-radius: 0;
+}
+
+.nav-pills > li + li {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.select_item_border {
+  padding: 15px 10px;
+  background-color: #effff8;
+  /*width: 100%;*/
+  /*border-radius:5px;*/
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0 0 30px;
+  border: 1px solid #ccc;
+}
+
+.title_select {
+  background-color: #ffffff;
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.4);
+  padding: 10px 15px;
+  margin: 15px auto;
+  border-radius: 5px;
+  font-weight: 400;
+}
+
+.r h4 {
+  background-color: #8cfff4;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.title_select h5 {
+  padding: 1px;
+}
+
+.AddStyle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 21px;
+}
+
+.AddStyle button {
+  font-size: 16px;
+  width: 26px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+
+.title_blit {
+  width: 100%;
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+.title_blit h5 {
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding: 15px;
+}
+
+.title_blit[data-name="Adlt"] {
+  background-color: #f4b946;
+}
+
+.title_blit[data-name="Chd"] {
+  background-color: #f09e8b;
+}
+
+.title_blit[data-name="Infa"] {
+  background-color: #8cb3dd;
+}
+
+#final_blit {
+  padding: 5px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 18px;
+}
+
+.price_sum_border {
+  /*border:1px solid #ccc;*/
+  padding: 20px;
+  margin: 15px 0;
+  background-color: #ededff;
+}
+
+.price_sum_border h6 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.price_sum_border .sum {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*#select_item .close_style:first-child{*/
+/*    display:none;*/
+/*}*/
+
+.close_style {
+  position: absolute;
+  left: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 20px;
+  margin: 7px 0;
+  background: transparent;
+  border: none;
+}
+
+.box_price {
+  text-align: center;
+  padding: 30px;
+  margin: 5px;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #fff;
+}
+
+.box_price[data-box="adt"] {
+  background-color: #f4b946;
+  color: #fff;
+}
+
+.box_price[data-box="chd"] {
+  background-color: #f09e8b;
+  color: #fff;
+}
+
+.box_price[data-box="inf"] {
+  background-color: #8cb3dd;
+  color: #fff;
+}
+
+.box_price #sum_all {
+  border: none;
+  text-align: center;
+  background-color: transparent;
+  width: 100%;
+  margin-left: 3px;
+}
+
+.btnCustom {
+  border-color: #007bff;
+}
+
+.title_bus_blit {
+  width: 100%;
+  padding: 0 20px;
+  border-bottom: 1px solid aqua;
+}
+
+#final_blit_bus,
+#final_blit_train {
+  padding: 5px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 18px;
+}
+
+.bus-seats {
+  width: 35px;
+  position: relative;
+  cursor: pointer;
+  margin: 1px;
+}
+
+.bus-seats img {
+  width: 100%;
+}
+
+.bus-seats p {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  margin: 0;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.space {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.rules-bus p:before {
+  content: "•";
+  font-size: 20px;
+  margin-left: 5px;
+}
+.rules-bus {
+  text-align: right;
+  font-size: 12px;
+  margin: 25px 15px 0 0;
+}
+
+.price-bus {
+  text-align: right;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.price-bus input {
+  border: none;
+  width: 20%;
+}
+
+.back-bus {
+  /* background-image: url("../images/back.png");
+  height: 100%; */
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.front-bus {
+  /* background-image: url("../images/front.png"); */
+  /* height: 100%; */
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.body-bus {
+  margin: 5px 0;
+}

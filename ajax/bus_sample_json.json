@@ -1,0 +1,422 @@
+{
+  "Bus": [
+    {
+      "TerminalBusID": 1025,
+      "Info": {
+        "BusCode": 3020,
+        "Class": "S",
+        "Type": "IRP",
+        "BusName": "اسکانیا",
+        "BusTerminalName": "ایران پیما",
+        "NumberSeats": "18",
+        "Capacity": "3",
+        "Price": 290000
+      },
+      "Address": {
+        "Source": "ترمینال آزادی",
+        "SourceEn": "Azadi Terminal",
+        "Destination": "ترمینال آرژانتین",
+        "DestinationEn": "Arzhantin Terminal",
+        "SourceCity": "رشت",
+        "SourceCityEn": "RAS",
+        "DestinationCity": "تهران",
+        "DestinationCityEn": "THR"
+      },
+      "Logo": {
+        "URL": "https://payaneh.ir/fa/logos/T01.jpg"
+      },
+      "Departure": {
+        "DepartureTerminalCode": "012",
+        "DepartureDate": "1398-02-05",
+        "DepartureTime": "09:30 AM",
+        "DepartureDateTimeFa": "سه شنبه 18 مهر، 10:30 صبح"
+      },
+      "Arrival": {
+        "ArrivalTerminalCode": "351",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "14:00 PM",
+        "ArrivalDateTimeFa": "1398-02-05 14:00 PM"
+      }
+    },
+    {
+      "TerminalBusID": 1232,
+      "Info": {
+        "BusCode": 1257,
+        "Class": "S",
+        "Type": "HSA",
+        "BusName": "اسکانیا",
+        "BusTerminalName": "همسفر",
+        "NumberSeats": "14",
+        "Capacity": "6",
+        "Price": 350000
+      },
+      "Address": {
+        "Source": "ترمینال آزادی",
+        "SourceEn": "Azadi Terminal",
+        "Destination": "ترمینال آرژانتین",
+        "DestinationEn": "Arzhantin Terminal",
+        "SourceCity": "رشت",
+        "SourceCityEn": "RAS",
+        "DestinationCity": "تهران",
+        "DestinationCityEn": "THR"
+      },
+      "Logo": {
+        "URL": "https://payaneh.ir/fa/logos/HMSFR.jpg"
+      },
+      "Departure": {
+        "DepartureTerminalCode": "012",
+        "DepartureDate": "1398-02-05",
+        "DepartureTime": "10:30 AM",
+        "DepartureDateTimeFa": "1398-02-05 10:30 AM"
+      },
+      "Arrival": {
+        "ArrivalTerminalCode": "351",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "14:30 PM",
+        "ArrivalDateTimeFa": "1398-02-05 14:30 PM"
+      }
+    },
+    {
+      "TerminalBusID": 6502,
+      "Info": {
+        "BusCode": 1250,
+        "Class": "T",
+        "Type": "SSA",
+        "BusName": "بنز",
+        "BusTerminalName": "سیر و سفر",
+        "NumberSeats": "14",
+        "Capacity": "11",
+        "Price": 280000
+      },
+      "Address": {
+        "Source": "ترمینال آزادی",
+        "SourceEn": "Azadi Terminal",
+        "Destination": "ترمینال آزادی",
+        "DestinationEn": "Azadi Terminal",
+        "SourceCity": "رشت",
+        "SourceCityEn": "RAS",
+        "DestinationCity": "تهران",
+        "DestinationCityEn": "THR"
+      },
+      "Logo": {
+        "URL": "https://payaneh.ir/fa/logos/SYRSFR.jpg"
+      },
+      "Departure": {
+        "DepartureTerminalCode": "012",
+        "DepartureDate": "1398-02-05",
+        "DepartureTime": "14:00 PM",
+        "DepartureDateTimeFa": "1398-02-05 14:00 PM"
+      },
+      "Arrival": {
+        "ArrivalTerminalCode": "351",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "18:45 PM",
+        "ArrivalDateTimeFa": "1398-02-05 18:45 PM"
+      }
+    },
+    {
+      "TerminalBusID": 3205,
+      "Info": {
+        "BusCode": 1250,
+        "Class": "T",
+        "Type": "ARS",
+        "BusName": "اسکانیا",
+        "BusTerminalName": "آريا سفر",
+        "NumberSeats": "14",
+        "Capacity": "9",
+        "Price": 280000
+      },
+      "Address": {
+        "Source": "ترمینال آزادی",
+        "SourceEn": "Azadi Terminal",
+        "Destination": "ترمینال آزادی",
+        "DestinationEn": "Azadi Terminal",
+        "SourceCity": "رشت",
+        "SourceCityEn": "RAS",
+        "DestinationCity": "تهران",
+        "DestinationCityEn": "THR"
+      },
+      "Logo": {
+        "URL": "https://payaneh.ir/fa/logos/T11.jpg"
+      },
+      "Departure": {
+        "DepartureTerminalCode": "012",
+        "DepartureDate": "1398-02-05",
+        "DepartureTime": "14:00 PM",
+        "DepartureDateTimeFa": "1398-02-05 14:00 PM"
+      },
+      "Arrival": {
+        "ArrivalTerminalCode": "351",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "18:45 PM",
+        "ArrivalDateTimeFa": "1398-02-05 18:45 PM"
+      }    
+    },
+    {
+      "TerminalBusID": 3260,
+      "Info": {
+        "BusCode": 1257,
+        "Class": "S",
+        "Type": "HSA",
+        "BusName": "اسکانیا",
+        "BusTerminalName": "همسفر",
+        "NumberSeats": "14",
+        "Capacity": "6",
+        "Price": 350000
+      },
+      "Address": {
+        "Source": "ترمینال آزادی",
+        "SourceEn": "Azadi Terminal",
+        "Destination": "ترمینال آرژانتین",
+        "DestinationEn": "Arzhantin Terminal",
+        "SourceCity": "رشت",
+        "SourceCityEn": "RAS",
+        "DestinationCity": "تهران",
+        "DestinationCityEn": "THR"
+      },
+      "Logo": {
+        "URL": "https://payaneh.ir/fa/logos/HMSFR.jpg"
+      },
+      "Departure": {
+        "DepartureTerminalCode": "012",
+        "DepartureDate": "1398-02-05",
+        "DepartureTime": "10:30 AM",
+        "DepartureDateTimeFa": "1398-02-05 10:30 AM"
+      },
+      "Arrival": {
+        "ArrivalTerminalCode": "351",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "14:30 PM",
+        "ArrivalDateTimeFa": "1398-02-05 14:30 PM"
+      }
+    },
+    {
+      "TerminalBusID": 4250,
+      "Info": {
+        "BusCode": 1257,
+        "Class": "S",
+        "Type": "HSA",
+        "BusName": "اسکانیا",
+        "BusTerminalName": "همسفر",
+        "NumberSeats": "14",
+        "Capacity": "6",
+        "Price": 350000
+      },
+      "Address": {
+        "Source": "ترمینال آزادی",
+        "SourceEn": "Azadi Terminal",
+        "Destination": "ترمینال آرژانتین",
+        "DestinationEn": "Arzhantin Terminal",
+        "SourceCity": "رشت",
+        "SourceCityEn": "RAS",
+        "DestinationCity": "تهران",
+        "DestinationCityEn": "THR"
+      },
+      "Logo": {
+        "URL": "https://payaneh.ir/fa/logos/HMSFR.jpg"
+      },
+      "Departure": {
+        "DepartureTerminalCode": "012",
+        "DepartureDate": "1398-02-05",
+        "DepartureTime": "10:30 AM",
+        "DepartureDateTimeFa": "1398-02-05 10:30 AM"
+      },
+      "Arrival": {
+        "ArrivalTerminalCode": "351",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "14:30 PM",
+        "ArrivalDateTimeFa": "1398-02-05 14:30 PM"
+      }
+    },
+    {
+      "TerminalBusID": 4251,
+      "Info": {
+        "BusCode": 3020,
+        "Class": "S",
+        "Type": "IRP",
+        "BusName": "اسکانیا",
+        "BusTerminalName": "ایران پیما",
+        "NumberSeats": "18",
+        "Capacity": "3",
+        "Price": 290000
+      },
+      "Address": {
+        "Source": "ترمینال آزادی",
+        "SourceEn": "Azadi Terminal",
+        "Destination": "ترمینال آرژانتین",
+        "DestinationEn": "Arzhantin Terminal",
+        "SourceCity": "رشت",
+        "SourceCityEn": "RAS",
+        "DestinationCity": "تهران",
+        "DestinationCityEn": "THR"
+      },
+      "Logo": {
+        "URL": "https://payaneh.ir/fa/logos/T01.jpg"
+      },
+      "Departure": {
+        "DepartureTerminalCode": "012",
+        "DepartureDate": "1398-02-05",
+        "DepartureTime": "09:30 AM",
+        "DepartureDateTimeFa": "1398-02-05 09:30 AM"
+      },
+      "Arrival": {
+        "ArrivalTerminalCode": "351",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "14:00 PM",
+        "ArrivalDateTimeFa": "1398-02-05 14:00 PM"
+      }
+    },
+    {
+      "TerminalBusID": 3569,
+      "Info": {
+        "BusCode": 3020,
+        "Class": "S",
+        "Type": "IRP",
+        "BusName": "اسکانیا",
+        "BusTerminalName": "ایران پیما",
+        "NumberSeats": "18",
+        "Capacity": "3",
+        "Price": 290000
+      },
+      "Address": {
+        "Source": "ترمینال آزادی",
+        "SourceEn": "Azadi Terminal",
+        "Destination": "ترمینال آرژانتین",
+        "DestinationEn": "Arzhantin Terminal",
+        "SourceCity": "رشت",
+        "SourceCityEn": "RAS",
+        "DestinationCity": "تهران",
+        "DestinationCityEn": "THR"
+      },
+      "Logo": {
+        "URL": "https://payaneh.ir/fa/logos/T01.jpg"
+      },
+      "Departure": {
+        "DepartureTerminalCode": "012",
+        "DepartureDate": "1398-02-05",
+        "DepartureTime": "09:30 AM",
+        "DepartureDateTimeFa": "1398-02-05 09:30 AM"
+      },
+      "Arrival": {
+        "ArrivalTerminalCode": "351",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "14:00 PM",
+        "ArrivalDateTimeFa": "1398-02-05 14:00 PM"
+      }
+    },
+    {
+      "TerminalBusID": 9584,
+      "Info": {
+        "BusCode": 1257,
+        "Class": "S",
+        "Type": "HSA",
+        "BusName": "اسکانیا",
+        "BusTerminalName": "همسفر",
+        "NumberSeats": "14",
+        "Capacity": "6",
+        "Price": 350000
+      },
+      "Address": {
+        "Source": "ترمینال آزادی",
+        "SourceEn": "Azadi Terminal",
+        "Destination": "ترمینال آرژانتین",
+        "DestinationEn": "Arzhantin Terminal",
+        "SourceCity": "رشت",
+        "SourceCityEn": "RAS",
+        "DestinationCity": "تهران",
+        "DestinationCityEn": "THR"
+      },
+      "Logo": {
+        "URL": "https://payaneh.ir/fa/logos/HMSFR.jpg"
+      },
+      "Departure": {
+        "DepartureTerminalCode": "012",
+        "DepartureDate": "1398-02-05",
+        "DepartureTime": "10:30 AM",
+        "DepartureDateTimeFa": "1398-02-05 10:30 AM"
+      },
+      "Arrival": {
+        "ArrivalTerminalCode": "351",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "14:30 PM",
+        "ArrivalDateTimeFa": "1398-02-05 14:30 PM"
+      }
+    },
+    {
+      "TerminalBusID": 7845,
+      "Info": {
+        "BusCode": 1257,
+        "Class": "S",
+        "Type": "HSA",
+        "BusName": "اسکانیا",
+        "BusTerminalName": "همسفر",
+        "NumberSeats": "14",
+        "Capacity": "6",
+        "Price": 350000
+      },
+      "Address": {
+        "Source": "ترمینال آزادی",
+        "SourceEn": "Azadi Terminal",
+        "Destination": "ترمینال آرژانتین",
+        "DestinationEn": "Arzhantin Terminal",
+        "SourceCity": "رشت",
+        "SourceCityEn": "RAS",
+        "DestinationCity": "تهران",
+        "DestinationCityEn": "THR"
+      },
+      "Logo": {
+        "URL": "https://payaneh.ir/fa/logos/HMSFR.jpg"
+      },
+      "Departure": {
+        "DepartureTerminalCode": "012",
+        "DepartureDate": "1398-02-05",
+        "DepartureTime": "10:30 AM",
+        "DepartureDateTimeFa": "1398-02-05 10:30 AM"
+      },
+      "Arrival": {
+        "ArrivalTerminalCode": "351",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "14:30 PM",
+        "ArrivalDateTimeFa": "1398-02-05 14:30 PM"
+      }
+    },
+    {
+      "TerminalBusID": 4859,
+      "Info": {
+        "BusCode": 1250,
+        "Class": "T",
+        "Type": "SSA",
+        "BusName": "بنز",
+        "BusTerminalName": "سیر و سفر",
+        "NumberSeats": "14",
+        "Capacity": "11",
+        "Price": 280000
+      },
+      "Address": {
+        "Source": "ترمینال آزادی",
+        "SourceEn": "Azadi Terminal",
+        "Destination": "ترمینال آزادی",
+        "DestinationEn": "Azadi Terminal",
+        "SourceCity": "رشت",
+        "SourceCityEn": "RAS",
+        "DestinationCity": "تهران",
+        "DestinationCityEn": "THR"
+      },
+      "Logo": {
+        "URL": "https://payaneh.ir/fa/logos/SYRSFR.jpg"
+      },
+      "Departure": {
+        "DepartureTerminalCode": "012",
+        "DepartureDate": "1398-02-05",
+        "DepartureTime": "14:00 PM",
+        "DepartureDateTimeFa": "1398-02-05 14:00 PM"
+      },
+      "Arrival": {
+        "ArrivalTerminalCode": "351",
+        "ArrivalDate": "1398-02-05",
+        "ArrivalTime": "18:45 PM",
+        "ArrivalDateTimeFa": "1398-02-05 18:45 PM"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+[24-Feb-2020 13:02:12 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/baharir2/public_html/wp-content/themes/Travelagency/pay/confirm.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/baharir2/public_html/wp-content/themes/Travelagency/pay/confirm.php on line 4
+[24-Feb-2020 13:02:48 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in /home/baharir2/public_html/wp-content/themes/Travelagency/pay/confirm.php:220
+Stack trace:
+#0 {main}
+  thrown in /home/baharir2/public_html/wp-content/themes/Travelagency/pay/confirm.php on line 220
+[24-Feb-2020 13:02:55 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in /home/baharir2/public_html/wp-content/themes/Travelagency/pay/confirm.php:220
+Stack trace:
+#0 {main}
+  thrown in /home/baharir2/public_html/wp-content/themes/Travelagency/pay/confirm.php on line 220
